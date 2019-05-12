@@ -7,9 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-new_array = []
-groceries.each do |category, item|
-  new_array << category.values do
+groceries.map do |x|
+  new_array = x.values
   end
 end
 new_array.flatten
