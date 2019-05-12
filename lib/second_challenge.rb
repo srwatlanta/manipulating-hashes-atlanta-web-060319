@@ -7,8 +7,5 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.map do |x, y|
-  new_array = x.values
-  end
-new_array.flatten
+groceries.values.flatten
 end
