@@ -10,6 +10,5 @@ def second_challenge
 groceries.map do |x|
   new_array = x.values
   end
-end
 new_array.flatten
 end
